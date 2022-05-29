@@ -4,8 +4,10 @@ package one.digitalinnovation.gof.model;
  * jsonschema2pojo.org. Para isso, usamos JSON de retorno da API ViaCEP.
  * */
 
+import javax.persistence.Entity;
 import javax.persistence.Id;
 
+@Entity
 public class Endereco {
     @Id
     private String cep;
